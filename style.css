@@ -5,10 +5,18 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    padding: 0px 16px;
+    justify-content: space-around;
+    padding: 16px 0px;
     background: #2e312e;
     color:white
+}
+
+.header {
+    font-size: 16px;
+}
+
+.header .title {
+    font-weight: bold;
 }
 
 .hero {
@@ -17,6 +25,23 @@ body {
     gap: 48px;
     padding: 96px;
     background: #2e312e;
+    color: white;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+}
+
+.hero-left button {
+    align-self: flex-start;
+}
+
+.hero .title {
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .hero .image-container{
@@ -104,5 +129,13 @@ ul {
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+button {
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 8px;
+    background: #2f9f47;
     color: white;
 }

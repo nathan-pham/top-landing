@@ -1,11 +1,14 @@
 body {
     font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     padding: 0px 16px;
+    background: #2e312e;
+    color:white
 }
 
 .hero {
@@ -13,6 +16,7 @@ body {
     justify-content: center;
     gap: 48px;
     padding: 96px;
+    background: #2e312e;
 }
 
 .section-2 {
@@ -36,12 +40,13 @@ body {
 .quote {
     display: flex;
     justify-content: center;
-    margin: 48px;
+    background: lightgray;
 }
 
 .quote .container {
     display: flex;
     flex-direction: column;
+    margin: 48px;
 }
 
 .quote-author {
@@ -56,11 +61,14 @@ body {
 
 .cta .container {
     display: flex;
+    background: #2f9f47;
 }
 
 .footer {
     text-align: center;
     padding: 32px;
+    background: #2e312e;
+    color: white;
 }
 
 ul {
@@ -69,4 +77,9 @@ ul {
     padding: 0px;
     list-style: none;
     gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
